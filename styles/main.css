@@ -23,6 +23,8 @@ a:hover {
 
 .GL-logo h1 {
 	font-size: 18px;
+	margin: 0;
+	padding: 0;
 }
 
 .GL-logo {
@@ -39,6 +41,8 @@ a:hover {
 
 .nav-button-a {
 	font-size: 18px;
+	margin-right: 6px;
+	margin-left: 6px;
 	/* display: inline-block; */
 }
 
@@ -63,10 +67,49 @@ label {
 }
 
 .pages-nav {
+	display: inline-block;
 	margin-bottom: 30px;
+	border: 1px solid #DDDDDD;
+}
+
+.pages-arrow-a {
+	font-size: 16px;
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.pages-number-a {
+	font-size: 16px;
+	display: inline-block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 15px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	text-decoration: none;
+}
+
+.pages-number-a:hover {
+	text-decoration: none;
 }
 
 .search-results-ul {
 	padding: 0;
+}
+
+.search-result-li {
+	list-style: none;
+	margin-bottom: 15px;
+	color: #999;
+}
+
+.search-link-a {
+	margin-left: 8px;
+	margin-right: 8px;
+	font-weight: bold;
 }
 
