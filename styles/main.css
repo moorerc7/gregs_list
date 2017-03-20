@@ -1,6 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	padding: 80px;
-	margin: 0;
+	margin: 0 auto;
 }
 
 header {
@@ -25,15 +29,16 @@ a:hover {
 	text-decoration: underline;
 }
 
-.gl-logo h1 {
+header h1 {
 	font-size: 18px;
 	margin: 0;
 	padding: 0;
 }
 
-.gl-logo {
-	display: inline-block;
+header {
+	/*display: inline-block;*/
 	font-size: 18px;
+	height: 50px;
 }
 
 .bar-nav {
@@ -43,42 +48,58 @@ a:hover {
 	top: 10px;
 }
 
+header h1,
 .bar-nav ul,
 .bar-nav li {
 	display: inline-block;
 }
 
-.nav-button-a {
+ .bar-nav li {
 	font-size: 18px;
 	margin-right: 6px;
 	margin-left: 6px;
-	/* display: inline-block; */
 }
 
 .search-bar-section {
 	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
 label {
 	display: block;
-	margin-bottom: 10px;
 }
 
 #search {
-	height: 30px;
+	height: 35px;
 	width: 400px;
 	border: 1px solid #DDDDDD;
 }
 
-.mag-search-img {
-	height: 30px;
+input[type="text"],
+input[type="image"] {
+	display: inline-block;
+	margin-top: 8px;
+}
+
+input[type="text"] {
+	padding: 5px;
+}
+
+input[type="image"] {
+	height: 35px;
 	border: 1px solid #DDDDDD;
+	margin-bottom: -13px;
 }
 
 .pages-nav {
-	display: inline-block;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.pages-nav ul {
 	border: 1px solid #DDDDDD;
+	margin: 0px;
+	padding: 0px;
 }
 
 .pages-nav ul,
@@ -86,13 +107,15 @@ label {
 	display: inline-block;
 }
 
-.pages-arrow-a {
+.pages-nav li {
 	font-size: 16px;
 	display: inline-block;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-left: -1px;
+	margin-right: -2px;
 }
 
 .pages-number-a {
