@@ -13,6 +13,10 @@ header {
 	padding: 10px;
 }
 
+li {
+	list-style-type: none;
+}
+
 a {
 	text-decoration: none;
 }
@@ -21,13 +25,13 @@ a:hover {
 	text-decoration: underline;
 }
 
-.GL-logo h1 {
+.gl-logo h1 {
 	font-size: 18px;
 	margin: 0;
 	padding: 0;
 }
 
-.GL-logo {
+.gl-logo {
 	display: inline-block;
 	font-size: 18px;
 }
@@ -37,6 +41,11 @@ a:hover {
 	position: absolute;
 	right: 10px;
 	top: 10px;
+}
+
+.bar-nav ul,
+.bar-nav li {
+	display: inline-block;
 }
 
 .nav-button-a {
@@ -70,6 +79,11 @@ label {
 	display: inline-block;
 	margin-bottom: 30px;
 	border: 1px solid #DDDDDD;
+}
+
+.pages-nav ul,
+.pages-nav li {
+	display: inline-block;
 }
 
 .pages-arrow-a {
@@ -112,4 +126,3 @@ label {
 	margin-right: 8px;
 	font-weight: bold;
 }
-
