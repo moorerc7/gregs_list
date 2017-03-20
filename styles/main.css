@@ -1,0 +1,72 @@
+body {
+	padding: 80px;
+	margin: 0;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.GL-logo h1 {
+	font-size: 18px;
+}
+
+.GL-logo {
+	display: inline-block;
+	font-size: 18px;
+}
+
+.bar-nav {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.nav-button-a {
+	font-size: 18px;
+	/* display: inline-block; */
+}
+
+.search-bar-section {
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#search {
+	height: 30px;
+	width: 400px;
+	border: 1px solid #DDDDDD;
+}
+
+.mag-search-img {
+	height: 30px;
+	border: 1px solid #DDDDDD;
+}
+
+.pages-nav {
+	margin-bottom: 30px;
+}
+
+.search-results-ul {
+	padding: 0;
+}
+
